@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
  // Assuming you move the CSS to a separate file
 
-const ToggleSwitch = () => {
+const MyCustomControl = () => {
   const [activeButton, setActiveButton] = useState('Present');
 
   const handleButtonClick = (buttonName) => {
@@ -29,4 +29,4 @@ const ToggleSwitch = () => {
   );
 };
 
-export default ToggleSwitch;
+export default MyCustomControl;

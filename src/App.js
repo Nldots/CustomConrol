@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import ToggleSwitch from './ToggleSwitch';
+import MyCustomControl from './MyCustomControl';
 
 function App() {
   return (
     <div className="App">
-      <ToggleSwitch />
+      <MyCustomControl />
     </div>
   );
 }
